@@ -30,7 +30,8 @@ Establishing a fact table to store quantitative sales data, facilitating the ana
 [View SQL File](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/52bbbff4221fb6831f0bd4b6ecac24686c339493/Fact_Sales%20Query.sql)
 
 #### Incremental Load Control:
-A control table is developed to regulate incremental loading. The last load datetime is updated each time the package runs to retrieve new data from the data source.
+A control table is developed to regulate incremental loading. The last load datetime is updated each time the package runs to retrieve new data from the data source. <br> 
+
 [View SQL file](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/adc19d1799d098f2d3a932d92433a15a9e7acea5/Control%20Load%20Query.sql)
 
 ### SSIS Implementation:
@@ -53,11 +54,13 @@ Throughout the project, We gains deep insights into data warehousing concepts an
 SQL Server
 SQL Server Integration Services (SSIS)
 T-SQL
-Contributions:
-Contributions to this project may include enhancements to dimension structures, optimization of ETL processes, implementation of additional SSIS features, or documentation improvements to aid in knowledge sharing.
 
 Future Development:
 Future enhancements could involve integrating additional data sources, refining ETL processes for improved performance, implementing data quality checks, or expanding the data mart to incorporate more dimensions and facts.
 
 Conclusion:
 This project serves as a valuable resource for individuals looking to explore data warehousing, SSIS, and ETL practices. By examining the project's structure and implementation details, users can deepen their understanding of data management and analytics within a business intelligence context.
+
+## Feel free to contact me for any info
+### LinkdIn: [linkedin.com/in/tarek-ebrahim20](https://www.linkedin.com/in/tarek-ebrahim20)
+###  Email: tareke.albeahy20@gmail.com
