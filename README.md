@@ -27,6 +27,8 @@ Building a dimension table specifically for dates to enable time-based analysis 
 #### Fact Table (Sales):
 Establishing a fact table to store quantitative sales data, facilitating the analysis of sales performance and trends. <br>
 
+[View SQL File](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/52bbbff4221fb6831f0bd4b6ecac24686c339493/Fact_Sales%20Query.sql)
+
 SSIS Implementation: SSIS is employed to migrate data from the database to the data warehouse. Various SSIS components, such as Slowly Changing Dimension, are utilized to manage and track historical changes in dimension attributes effectively.
 Data Extraction and Transformation: Data is extracted from the data source, transformed to align with the data warehouse structure, and then loaded into the data warehouse.
 Incremental Load Control: A control table is developed to regulate incremental loading. The last load datetime is updated each time the package runs to retrieve new data from the data source.
