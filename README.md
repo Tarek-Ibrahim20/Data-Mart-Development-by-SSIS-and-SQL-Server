@@ -29,6 +29,10 @@ Establishing a fact table to store quantitative sales data, facilitating the ana
 
 [View SQL File](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/52bbbff4221fb6831f0bd4b6ecac24686c339493/Fact_Sales%20Query.sql)
 
+#### Incremental Load Control:
+A control table is developed to regulate incremental loading. The last load datetime is updated each time the package runs to retrieve new data from the data source.
+[View SQL file](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/adc19d1799d098f2d3a932d92433a15a9e7acea5/Control%20Load%20Query.sql)
+
 ### SSIS Implementation:
 SSIS is employed to migrate data from the database to the data warehouse. Various SSIS components, such as Slowly Changing Dimension, are utilized to manage and track historical changes in dimension attributes effectively.
 Data is extracted from the data source, transformed to align with the data warehouse structure, and then loaded into the data warehouse. <br>
@@ -42,14 +46,10 @@ Data is extracted from the data source, transformed to align with the data wareh
 
 ![Fact_Sales Data Flow ETL](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/a18734f22c96544aa444023960a2a4b689c3d546/Fact_Sales%20ETL.png)
 
+### Learning Focus:
+Throughout the project, We gains deep insights into data warehousing concepts and strengthens their ETL (Extract, Transform, Load) skills. Exposure to key concepts such as data modeling, dimension hierarchies, slowly changing dimensions, and incremental loading enriches my understanding of data management and analysis.
 
-
-Incremental Load Control: A control table is developed to regulate incremental loading. The last load datetime is updated each time the package runs to retrieve new data from the data source.
-Learning Focus:
-Throughout the project, the team gains deep insights into data warehousing concepts and strengthens their ETL (Extract, Transform, Load) skills. Exposure to key concepts such as data modeling, dimension hierarchies, slowly changing dimensions, and incremental loading enriches their understanding of data management and analysis.
-
-Technologies Used:
-
+### Technologies Used:
 SQL Server
 SQL Server Integration Services (SSIS)
 T-SQL
