@@ -3,20 +3,29 @@
 This project showcases the development of a Data Mart using SQL Server Integration Services (SSIS) in conjunction with SQL Server. The project initially focuses on constructing a data warehouse and establishing dimensions for products, customers, territories, and date, alongside a fact table for sales data. SSIS is utilized to transfer data from the database to the data warehouse, with the exception of the date dimension, which is populated using T-SQL.
 
 ## Key Components:
-https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/52bbbff4221fb6831f0bd4b6ecac24686c339493/Create%20Database.sql
-### Data Warehouse Setup: The project commences by building a data warehouse structure to support analytical queries efficiently.
- 
-### Dimension Creation:
+### Data Warehouse Setup:
+The project commences by building a data warehouse structure to support analytical queries efficiently. <br>
+
+[View SQL File](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/52bbbff4221fb6831f0bd4b6ecac24686c339493/Create%20Database.sql) 
+### Dimensions Creation:
 #### Product Dimension:
-Creating a dimension table to capture and provide insights into product-related data for analysis and reporting purposes.
+Creating a dimension table to capture and provide insights into product-related data for analysis and reporting purposes.<br>
+
+[View SQL File](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/52bbbff4221fb6831f0bd4b6ecac24686c339493/Dim_Product%20Query.sql) 
 #### Customer Dimension:
-Designing a dimension table to store customer-related information, enabling segmentation and analysis based on customer attributes.
+Designing a dimension table to store customer-related information, enabling segmentation and analysis based on customer attributes. <br>
+
+[View SQL File](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/52bbbff4221fb6831f0bd4b6ecac24686c339493/Dim_Customer%20Query.sql)
 #### Territory Dimension:
-Developing a dimension table to define and categorize territories, facilitating geographic analysis and performance evaluation.
+Developing a dimension table to define and categorize territories, facilitating geographic analysis and performance evaluation. <br>
+
+[View SQL File](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/52bbbff4221fb6831f0bd4b6ecac24686c339493/Dim_Territory%20Query.sql)
 #### Date Dimension:
-Building a dimension table specifically for dates to enable time-based analysis and reporting within the data mart.
+Building a dimension table specifically for dates to enable time-based analysis and reporting within the data mart. <br>
+
+[View SQL File](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/52bbbff4221fb6831f0bd4b6ecac24686c339493/SQL%20Date%20Dimension%20Query.sql#L17)
 #### Fact Table (Sales):
-Establishing a fact table to store quantitative sales data, facilitating the analysis of sales performance and trends.
+Establishing a fact table to store quantitative sales data, facilitating the analysis of sales performance and trends. <br>
 
 SSIS Implementation: SSIS is employed to migrate data from the database to the data warehouse. Various SSIS components, such as Slowly Changing Dimension, are utilized to manage and track historical changes in dimension attributes effectively.
 Data Extraction and Transformation: Data is extracted from the data source, transformed to align with the data warehouse structure, and then loaded into the data warehouse.
