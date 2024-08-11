@@ -12,10 +12,6 @@ Create Table Dim_Date (
     dayofweek INT
 );
 
-
-
-
-
 -- Declare variables for date range
 DECLARE @StartDate DATE = '2010-01-01';
 DECLARE @EndDate DATE = '2030-12-31';
