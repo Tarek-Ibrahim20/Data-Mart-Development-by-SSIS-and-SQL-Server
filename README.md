@@ -48,17 +48,17 @@ Data is extracted from the data source, transformed to align with the data wareh
 ![Fact_Sales Data Flow ETL](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/a18734f22c96544aa444023960a2a4b689c3d546/Fact_Sales%20ETL.png)
 
 ### Learning Focus:
-Throughout the project, We gains deep insights into data warehousing concepts and strengthens their ETL (Extract, Transform, Load) skills. Exposure to key concepts such as data modeling, dimension hierarchies, slowly changing dimensions, and incremental loading enriches my understanding of data management and analysis.
+Throughout this project, I gained deep insights into data warehousing concepts and strengthened my ETL (Extract, Transform, Load) skills. Exposure to key concepts such as data modeling, dimension hierarchies, slowly changing dimensions, and incremental loading enriched my understanding of data management and analysis.
 
 ### Technologies Used:
 SQL Server
 SQL Server Integration Services (SSIS)
 T-SQL
 
-Future Development:
+### Future Development:
 Future enhancements could involve integrating additional data sources, refining ETL processes for improved performance, implementing data quality checks, or expanding the data mart to incorporate more dimensions and facts.
 
-Conclusion:
+### Conclusion:
 This project serves as a valuable resource for individuals looking to explore data warehousing, SSIS, and ETL practices. By examining the project's structure and implementation details, users can deepen their understanding of data management and analytics within a business intelligence context.
 
 ## Feel free to contact me for any info
