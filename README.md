@@ -36,7 +36,7 @@ A control table is developed to regulate incremental loading. The last load date
 
 ### SSIS Implementation:
 SSIS is employed to migrate data from the database to the data warehouse. Various SSIS components, such as Slowly Changing Dimension, are utilized to manage and track historical changes in dimension attributes effectively.
-Data is extracted from the data source, transformed to align with the data warehouse structure, and then loaded into the data warehouse. <br>
+Data is extracted from the data source, transformed by many transformations like dealing with nulls and data types to align with the data warehouse structure, and then loaded into the data warehouse. <br>
 ![Dim_Product ETL](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/a18734f22c96544aa444023960a2a4b689c3d546/Dim_Product%20ETL.png)
 
 ![Dim_Customer ETL](https://github.com/Tarek-Ibrahim20/Data-Mart-Development-by-SSIS-and-SQL-Server/blob/a18734f22c96544aa444023960a2a4b689c3d546/Dim_Customers.png)
