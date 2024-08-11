@@ -24,12 +24,6 @@ Values( 0,0,'Unknown','Unknown','Unknown',0,1900/1/1,null,0)
 
 Set Identity_insert Dim_Territory off
 
--- Insert Foreign Key to Fact Sales
-If exists ( select * from sys.tables where name = 'Fact_Sales')
-	Alter Table Fact_Sales 
-	Add Constraint FK_DimTerritory_FactSales Foreign Key (Territory_Key)
-	References Dim_Territory(Territory_Key)
-
 -- Add index on Territory_Id
 If exists( Select * from sys.indexes where name = 'Ind_DimTerritory_TerritoryId' )
 	drop Index Dim_Territory.Ind_DimTerritory_TerritoryId
