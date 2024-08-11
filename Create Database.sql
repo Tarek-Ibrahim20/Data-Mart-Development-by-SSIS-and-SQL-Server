@@ -1,3 +1,5 @@
+
+```
 --Create Datawarehouse
 use master
 
@@ -9,3 +11,4 @@ ON
 ( Name = 'DW_AdventureWorks_Data', FileName = 'C:\Tarek\DW Files\DW_AdventureWorks_Data.mdf'),
 ( Name = 'DW_AdventureWorks_logical', FileName = 'C:\Tarek\DW Files\DW_AdventureWorks_Data.ldf')
 Go
+```
